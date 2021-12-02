@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3084d178-e66b-4086-a3df-07777f26095c" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="21MeUwF3ZyrtKK7dS28oETsl3cA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SortingManager" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.SortManager">
+    <configuration name="SortLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sparta.controller.SortLoop" />
+      <module name="SortingManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sparta.controller.SortManager" />
+      <module name="SortingManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuicksortTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SortingManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.quicksort.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.quicksort.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.quicksort.test.QuicksortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuicksortTest.charArray10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SortingManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.quicksort.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.quicksort.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.quicksort.test.QuicksortTest" />
+      <option name="METHOD_NAME" value="charArray10" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.sparta in OOPExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SortingManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SortManager" />
+        <item itemvalue="Application.SortLoop" />
+        <item itemvalue="JUnit.com.sparta in OOPExample" />
+        <item itemvalue="JUnit.QuicksortTest.charArray10" />
+        <item itemvalue="JUnit.QuicksortTest (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3084d178-e66b-4086-a3df-07777f26095c" name="Changes" comment="" />
+      <created>1637755404354</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637755404354</updated>
+      <workItem from="1637755405610" duration="9810000" />
+      <workItem from="1637832552729" duration="6490000" />
+      <workItem from="1637845281446" duration="8876000" />
+      <workItem from="1638193173450" duration="209000" />
+      <workItem from="1638275944578" duration="1200000" />
+      <workItem from="1638278755774" duration="5532000" />
+      <workItem from="1638284366631" duration="493000" />
+      <workItem from="1638285276555" duration="3965000" />
+      <workItem from="1638289866631" duration="6592000" />
+      <workItem from="1638350906502" duration="10164000" />
+      <workItem from="1638370162595" duration="599000" />
+      <workItem from="1638437948282" duration="11535000" />
+      <workItem from="1638458576372" duration="436000" />
+      <workItem from="1638461569048" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
