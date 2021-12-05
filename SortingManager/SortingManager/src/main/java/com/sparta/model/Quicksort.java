@@ -1,20 +1,26 @@
 package com.sparta.model;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
-public class Quicksort extends Sort implements Sortable {
+public class Quicksort<T extends Comparable<T>> extends Sort implements Sortable<T> {
 
-    public <T extends Comparable>T[] sort(T[] array) {
+    public T[] sort(T[] array) {
+        start = System.nanoTime();
         if(!checkIfValid(array))
             return array;
-        return quicksort(array, 0, array.length-1);
+        T[] newArray = Arrays.copyOf(array, array.length);
+        return quicksort(newArray, 0, array.length-1);
+
     }
-    public <T extends Comparable>ArrayList<T> sort(ArrayList<T> list){
+    public ArrayList<T> sort(ArrayList<T> list){
+        start = System.nanoTime();
         if(!checkIfValid(list))
             return list;
-        return quicksort(list, 0, list.size()-1);
+        ArrayList<T> newList = new ArrayList<>(list);
+        return quicksort(newList, 0, list.size()-1);
     }
-    private <T extends Comparable>T[] quicksort(T[] array, int low, int high){
+    private T[] quicksort(T[] array, int low, int high){
         int partition = partition(array, low, high);
 
         if(partition-1>low){
@@ -23,10 +29,10 @@ public class Quicksort extends Sort implements Sortable {
         if(partition+1<high){
             quicksort(array, partition+1, high);
         }
-
+        end = System.nanoTime();
         return array;
     }
-    private <T extends Comparable>ArrayList<T> quicksort(ArrayList<T> list, int low, int high){
+    private ArrayList<T> quicksort(ArrayList<T> list, int low, int high){
         int partition = partition(list, low, high);
 
         if(partition-1>low){
@@ -35,10 +41,10 @@ public class Quicksort extends Sort implements Sortable {
         if(partition+1<high){
             quicksort(list, partition+1, high);
         }
-
+        end = System.nanoTime();
         return list;
     }
-    private <T extends Comparable>int partition(T[] array, int low, int high){
+    private int partition(T[] array, int low, int high){
         T pivot = array[high];
 
         for(int i = low; i < high; i++){
@@ -54,7 +60,7 @@ public class Quicksort extends Sort implements Sortable {
 
         return low;
     }
-    private <T extends Comparable>int partition(ArrayList<T> list, int low, int high){
+    private int partition(ArrayList<T> list, int low, int high){
         T pivot = list.get(high);
 
         for(int i = low; i < high; i++){

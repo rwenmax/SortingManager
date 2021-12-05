@@ -1,0 +1,3 @@
+FILE [INFO ] 2021-12-05 21:32:55,281 main SortManager - User input returned valid, running the Sortloop.
+FILE [INFO ] 2021-12-05 21:32:55,286 main SortManager - Successfully run Sortloop.
+FILE [INFO ] 2021-12-05 21:33:43,471 main SortManager - User input returned invalid, exiting the program.
