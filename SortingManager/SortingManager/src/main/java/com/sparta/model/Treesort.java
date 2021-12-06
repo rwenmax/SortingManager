@@ -33,6 +33,7 @@ public class Treesort <T extends Comparable<T>>extends Sort implements Sortable<
             return root;
         }
 
+
         if (key.compareTo(root.key) <= -1){
             root.left = insertRec(root.left, key);
         }
@@ -65,7 +66,7 @@ public class Treesort <T extends Comparable<T>>extends Sort implements Sortable<
     }
 
     public T[] sort(T[] array) {
-        if (checkIfValid(array)){
+        if (!checkIfValid(array)){
             return array;
         }
         start = System.nanoTime();
@@ -79,7 +80,7 @@ public class Treesort <T extends Comparable<T>>extends Sort implements Sortable<
     }
 
     public ArrayList<T> sort(ArrayList<T> list) {
-        if (checkIfValid(list)){
+        if (!checkIfValid(list)){
             return list;
         }
         start = System.nanoTime();
